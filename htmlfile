@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title>
+            calculator
+        </title>
+    </head>
+
+    <body>
+        <link rel ="stylesheet" href = "calc.css">
+        <p class = "dis"></p>
+        <div>
+        <button class = "one" onclick = "result+=1
+         display('1');"
+         >1</button>
+        <button class = "one" onclick = "result+=2
+        display('2');">2</button>
+        <button class = "one" onclick = "result+=3
+        display('3');">3</button>
+        <button class = "two" onclick = "result+=' + '
+        display('+');">+</button>
+        </div>
+        <div>
+        <button class = "one" onclick = "result+=4
+        display('4');">4</button>
+        <button class = "one" onclick = "result+=5
+        display('5');">5</button>
+        <button class = "one" onclick = "result+=6
+        display('6');">6</button>
+        <button class = "two" onclick = "result+=' - '
+        display('-');">-</button>
+        </div>
+        <div>
+        <button class = "one" onclick = "result+=7
+        display('7');">7</button>
+        <button class = "one" onclick = "result+=8
+        display('8');">8</button>
+        <button class = "one" onclick = "result+=9
+        display('9');">9</button>
+        <button class = "two" onclick = "result+=' * '
+        display('*');">*</button>
+        </div>
+        <div>
+        <button class = "one" onclick = "result+=0
+        display('0');">0</button>
+        <button class = "one" onclick = "result+='.'
+        display('.');">.</button>
+        <button class = "one" onclick = "calcu();">=</button>
+        <button class = "two" onclick = "result+=' / '
+        display('/');">/</button>
+        </div>
+        <button class = "one" onclick = "display('clear')">clear</button>
+        <script src = "calc.js">
+            
+        </script>
+    </body>
+</html>
